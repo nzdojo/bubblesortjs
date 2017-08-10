@@ -9,7 +9,6 @@ describe('bubblesorting Fixture tests', function () {
     });
   
     it('Sort a List of Numbers', function (done) {
-      
       var list = [-2, 3, 1, -1, 0, 7, 5];
     
       sorting.BubbleSort(list);
@@ -20,7 +19,6 @@ describe('bubblesorting Fixture tests', function () {
     });
     
     it('Sort a one item list', function (done) {
-      
       var shortlist = [2];
     
       sorting.BubbleSort(shortlist);
@@ -31,7 +29,6 @@ describe('bubblesorting Fixture tests', function () {
     });
     
     it('Sort an empty list', function (done) {
-    
       var emptylist = [];
       
       sorting.BubbleSort(emptylist);
